@@ -35,6 +35,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   lua_dardo: 0.0.5
+  shared_preferences: ^2.2.2
+  file_picker: ^10.3.10
+  share_plus: ^12.0.1
 
 dev_dependencies:
   flutter_test:
@@ -60,7 +63,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - lib/assets/logic.lua
+    - lib/assets/cartucho.json
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
